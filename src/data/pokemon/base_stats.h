@@ -22644,10 +22644,10 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_MARSHADOW] =
     {
         .baseHP        = 90,
-        .baseAttack    = 125,
+        .baseAttack    = 130,
         .baseDefense   = 80,
-        .baseSpeed     = 125,
-        .baseSpAttack  = 90,
+        .baseSpeed     = 130,
+        .baseSpAttack  = 80,
         .baseSpDefense = 90,
         .type1 = TYPE_FIGHTING,
         .type2 = TYPE_GHOST,
@@ -22663,6 +22663,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
             .abilities = {ABILITY_TECHNICIAN, ABILITY_NONE},
+	    .abilityHidden = ABILITY_HUGE_POWER,
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
@@ -56988,10 +56989,10 @@ const struct BaseStats gVanillaBaseStats[] =
     [SPECIES_MARSHADOW] =
     {
         .baseHP        = 90,
-        .baseAttack    = 125,
+        .baseAttack    = 130,
         .baseDefense   = 80,
-        .baseSpeed     = 125,
-        .baseSpAttack  = 90,
+        .baseSpeed     = 130,
+        .baseSpAttack  = 80,
         .baseSpDefense = 90,
         .type1 = TYPE_FIGHTING,
         .type2 = TYPE_GHOST,
@@ -57007,6 +57008,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
             .abilities = {ABILITY_TECHNICIAN, ABILITY_NONE},
+            .abilityHidden = ABILITY_HUGE_POWER,
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
